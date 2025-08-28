@@ -26,13 +26,13 @@ def read_csv_auto_encoding(path):
     print(f"{path} 偵測到編碼：{encoding}")
     return pd.read_csv(path, encoding=encoding)
 
-path_data1 = r"D:/台新/intraday_data/FTQ5_intraday_data_818.csv"
-path_data2 = r"D:/台新/intraday_data/FTQ5_intraday_data_819.csv"
-path_data3 = r"D:/台新/intraday_data/FTQ5_intraday_data_820.csv"
-path_data4 = r"D:/台新/intraday_data/FTQ5_intraday_data_813.csv"
-path_data5 = r"D:/台新/intraday_data/FTQ5_intraday_data_815.csv"
-path_data6 = r"D:/台新/intraday_data/FTQ5_intraday_data_814.csv"
-path_data7 = r"D:/台新/intraday_data/FTQ5_intraday_data_813.csv"
+path_data1 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_818.csv"
+path_data2 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_819.csv"
+path_data3 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_820.csv"
+path_data4 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_813.csv"
+path_data5 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_815.csv"
+path_data6 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_814.csv"
+path_data7 = r"D:/台新/strategy/intraday_data/FTQ5_intraday_data_813.csv"
 
 data_818 = read_csv_auto_encoding(path_data1)
 data_819 = read_csv_auto_encoding(path_data2)
