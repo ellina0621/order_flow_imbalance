@@ -17,7 +17,7 @@ from scipy.stats import pearsonr
 from scipy.stats import ttest_1samp
 from arch import arch_model
 import statsmodels.formula.api as smf
-from data import get_combine_data
+from data import combine_data
 ### import data ####
 combined_data = combine_data.copy()
 combined_data = combined_data.sort_values(['date','time']).reset_index(drop=True)
